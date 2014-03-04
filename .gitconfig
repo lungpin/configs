@@ -1,4 +1,15 @@
+[color]
+  ui = auto
 [alias]
-	co = checkout
-	ci = commit
-	st = status
+  st = status
+  di = diff
+  ci = commit
+  br = branch
+  llog = log --date=local
+[rerere]
+  enabled = true
+[user]
+	email = lungpin.yeh@gmail.com
+	name = Lungpin Yeh
+[push]
+	default = simple
