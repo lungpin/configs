@@ -13,3 +13,5 @@
 	name = Lungpin Yeh
 [push]
 	default = simple
+[core]
+	excludesfile = /home/ubuntu/.configs/global_gitignore
