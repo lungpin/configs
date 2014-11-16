@@ -28,6 +28,7 @@ Plugin 'gmarik/Vundle.vim'
 
 
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'pangloss/vim-javascript'
 
 
 " All of your Plugins must be added before the following line
@@ -49,3 +50,5 @@ colorscheme desert
 syntax enable
 filetype plugin indent on
 set nu
+
+set ts=2 sts=2 sw=2
