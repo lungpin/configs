@@ -51,4 +51,5 @@ syntax enable
 filetype plugin indent on
 set nu
 
+set expandtab
 set ts=2 sts=2 sw=2
