@@ -35,6 +35,14 @@ Plugin 'tpope/vim-rails'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-endwise'
 
+" vim html indentation
+Plugin 'othree/html5.vim'
+
+" http://www.terminally-incoherent.com/blog/2014/04/02/3-tiny-vim-plugins-that-will-make-your-life-easier/
+Plugin 'Townk/vim-autoclose'
+Plugin 'vim-scripts/closetag.vim'
+Plugin 'edsono/vim-matchit'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
