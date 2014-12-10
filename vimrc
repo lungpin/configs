@@ -29,6 +29,7 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
 " For Ruby on Rails
 Plugin 'tpope/vim-rails'
@@ -65,3 +66,7 @@ set nu
 
 set expandtab
 set ts=2 sts=2 sw=2
+
+" By default, JSX syntax highlighting and indenting will be enabled only for files with the .jsx extension. If you would like JSX in .js files, add
+let g:jsx_ext_required = 0
+
