@@ -44,6 +44,21 @@ Plugin 'Townk/vim-autoclose'
 Plugin 'vim-scripts/closetag.vim'
 Plugin 'edsono/vim-matchit'
 
+
+" SnipMate and its dependencies:
+Plugin 'L9'
+Bundle "othree/vim-autocomplpop"
+
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+
+" vim-react-snippets:
+Bundle "justinj/vim-react-snippets"
+Bundle "honza/vim-snippets"
+
+" Other sets of snippets (optional):
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
