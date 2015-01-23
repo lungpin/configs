@@ -47,7 +47,7 @@ Plugin 'edsono/vim-matchit'
 
 " SnipMate and its dependencies:
 Plugin 'L9'
-Bundle "othree/vim-autocomplpop"
+"Bundle "othree/vim-autocomplpop"
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
@@ -56,6 +56,8 @@ Bundle "garbas/vim-snipmate"
 " vim-react-snippets:
 Bundle "justinj/vim-react-snippets"
 Bundle "honza/vim-snippets"
+
+Plugin 'steffanc/cscopemaps.vim'
 
 " Other sets of snippets (optional):
 
@@ -85,3 +87,13 @@ set ts=2 sts=2 sw=2
 " By default, JSX syntax highlighting and indenting will be enabled only for files with the .jsx extension. If you would like JSX in .js files, add
 let g:jsx_ext_required = 0
 
+" https://blog.othree.net/log/2013/06/25/autocomplpop-and-snipmate/
+let g:acp_behaviorSnipmateLength = 1
+
+autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
+autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
+autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
+autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
+set hlsearch
+
+autocmd BufWritePre * :%s/\s\+$//e
