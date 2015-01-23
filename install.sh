@@ -1,7 +1,8 @@
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 echo ". ~/.configs/bashrc" >> ~/.bashrc
-rm ~/.tmux.conf
+rm -f ~/.tmux.conf
 ln -s ~/.configs/tmux.conf ~/.tmux.conf
-rm ~/.gitconfig
+rm -f ~/.gitconfig
 ln -s ~/.configs/gitconfig ~/.gitconfig
 ln -s ~/.configs/vimrc ~/.vimrc
 
