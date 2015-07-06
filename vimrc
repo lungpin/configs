@@ -58,6 +58,9 @@ Bundle "justinj/vim-react-snippets"
 Bundle "honza/vim-snippets"
 
 Plugin 'steffanc/cscopemaps.vim'
+Plugin 'ConradIrwin/vim-bracketed-paste'
+
+Plugin 'scrooloose/syntastic'
 
 " Other sets of snippets (optional):
 
@@ -97,3 +100,5 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 set hlsearch
 
 autocmd BufWritePre * :%s/\s\+$//e
+
+
