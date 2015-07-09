@@ -14,4 +14,4 @@
 [push]
 	default = simple
 [core]
-	excludesfile = /home/ubuntu/.configs/global_gitignore
+	excludesfile = /mnt/pd0/lungpin/.configs/global_gitignore
